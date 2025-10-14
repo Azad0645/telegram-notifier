@@ -8,11 +8,12 @@
 
 - `pip install -r requirements.txt`
 
-Создайте файл .env и добавьте туда свои токены:
+Создайте файл .env и добавьте туда свои данные:
 
 - TG_TOKEN=токен_бота
 - DVMN_TOKEN=токен_dvmn.org
+- CHAT_ID=твой_chat_id
 
 Запуск бота:
 
-- `python main.py --chat_id 123456789`
+- `python main.py`
